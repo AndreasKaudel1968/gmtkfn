@@ -3,7 +3,7 @@ package gmtkfn
 import "testing"
 
 func TestGematikGoKit_RandomString(t *testing.T) {
-	var gematikGoKit gmtkfn
+	var gematikGoKit Gmtkfn
 
 	s := gematikGoKit.RandomString(15)
 
